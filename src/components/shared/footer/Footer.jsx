@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Information */}
-          <div>
+          <div className='mx-6'>
             <h3 className="text-xl font-semibold">Contact Us</h3>
             <ul className="mt-2 text-gray-400">
               <li>Email: support@craftopia.com</li>
@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
 
           {/* Social Media Links */}
-          <div>
+          <div className='mx-12'>
             <h3 className="text-xl font-semibold">Follow Us</h3>
             <div className="flex justify-center md:justify-start mt-4 space-x-6">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">

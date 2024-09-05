@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left mx-40">
           {/* Website Name and Description */}
           <div>
             <h2 className="text-2xl font-bold">Craftopia</h2>
-            <p className="mt-2 text-gray-400">Your one-stop shop for unique and handcrafted art and craft items.</p>
+            <p className="mt-2 text-gray-400">Your one-stop shop for unique and<br></br> handcrafted art and craft items.</p>
           </div>
 
           {/* Contact Information */}
@@ -25,12 +25,12 @@ const Footer = () => {
           {/* Social Media Links */}
           <div>
             <h3 className="text-xl font-semibold">Follow Us</h3>
-            <div className="flex justify-center md:justify-start mt-4 space-x-4">
+            <div className="flex justify-center md:justify-start mt-4 space-x-6">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
                 <FaFacebook size={24} />
               </a>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
-                <FaTwitter size={24} />
+                <FaTwitter size={24} /> 
               </a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
                 <FaInstagram size={24} />
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright Section */}
-        <div className="mt-10 border-t border-gray-700 pt-4 text-center">
+        <div className="mt-10 border-t border-blue-900 pt-4 text-center">
           <p className="text-gray-500">&copy; 2024 Craftopia. All rights reserved.</p>
         </div>
       </div>
